@@ -1,0 +1,84 @@
+:root {
+  --Verydarkbluea: hsl(217, 54%, 11%);
+  --Verydarkblueb: hsl(216, 50%, 16%);
+  --Verydarkbluec: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+  --Softblue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--Verydarkbluea);
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: var(--Verydarkblueb);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+  border-radius: 20px;
+  box-shadow: 2px 6px 10px black;
+}
+.header-image {
+  width: 100%;
+}
+
+h1 {
+  color: var(--White);
+  font-weight: 600;
+}
+h1:hover,
+footer span:hover {
+  color: var(--Cyan);
+}
+p,
+span {
+  font-size: 18px;
+}
+.paragraph {
+  color: var(--Softblue);
+  font-weight: 300;
+}
+span {
+  color: var(--White);
+}
+.tags {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+i {
+  margin-right: 0.6rem;
+}
+.tags__cyan {
+  color: var(--Cyan);
+}
+hr {
+  width: 100%;
+  opacity: 0.2;
+}
+footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+  border-radius: 20px;
+  padding: 0.1rem;
+  background-color: var(--White);
+}
